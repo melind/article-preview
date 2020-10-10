@@ -1,0 +1,47 @@
+$Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+$Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+$Grayish-Blue: hsl(212, 23%, 69%);
+$Light-Grayish-Blue: hsl(210, 46%, 95%);
+
+$screen-xl-max: 1440px;
+$screen-m-max: 1100px;
+$screen-sm-max: 425px;
+
+%borderline {
+  border: 1px solid #ccc;
+}
+
+%flex {
+  flex:auto;
+  width: 100%;
+}
+
+%share {
+    background-color: $Very-Dark-Grayish-Blue;
+    color: $Desaturated-Dark-Blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    letter-spacing: 3px;
+}
+
+@mixin sm{
+   @media screen and (max-width: #{$screen-sm-max}) {
+       @content;
+   }
+}
+
+@mixin m {
+   @media screen and (max-width: #{$screen-m-max}) {
+       @content;
+   }
+}
+
+
+@mixin xl {
+   @media screen and (max-width: #{$screen-xl-max}) {
+       @content;
+   }
+}
+
+

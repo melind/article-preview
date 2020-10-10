@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swa");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /*@extend %borderline;
+   border-color: red;*/
+  height: 100%;
+  width: 100%;
+  background-color: #ecf2f8;
+}
+
+body {
+  border-color: yellow;
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  flex-direction: column;
+  margin: 0;
+}
+
+/*# sourceMappingURL=base.css.map */

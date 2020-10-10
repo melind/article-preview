@@ -1,0 +1,41 @@
+.tooltip {
+  background-color: #48556a;
+  color: #6d7f97;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  letter-spacing: 3px;
+}
+
+.tooltip {
+  width: 253px;
+  height: 53px;
+  position: relative;
+  padding: 0 1% 0 1%;
+  border-radius: 10px;
+  bottom: 112px;
+  right: 114px;
+  box-shadow: 0 8px 10px #ecf2f8;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+  position: absolute;
+  border-top: 13px solid #48556a;
+  bottom: -24%;
+  box-shadow: 0 8px 10px #ecf2f8;
+}
+
+#hidden {
+  display: none;
+}
+
+#hidden.tooltip-wrapper {
+  position: absolute;
+  display: block;
+}
+
+/*# sourceMappingURL=tooltip.css.map */

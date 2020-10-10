@@ -1,0 +1,30 @@
+@import 'factor';
+
+
+.card {
+    /*@extend %borderline;
+    border-color: red;*/
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    overflow:hidden;
+    display: flex;
+}
+
+ @include m {
+     .card {
+     
+      flex-wrap: wrap;
+      justify-content:center;
+      width: 31%; 
+     }
+ }
+
+ @include sm {
+     .card {
+         flex-wrap: wrap;
+         width: 76%;
+     }
+ }

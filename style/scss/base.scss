@@ -1,0 +1,29 @@
+@import 'factor';
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swa');
+
+
+  
+* {
+    box-sizing: border-box;
+  }
+html {
+    /*@extend %borderline;
+     border-color: red;*/
+     height: 100%;
+     width: 100%;
+     background-color: $Light-Grayish-Blue;
+}
+body {
+     //@extend %borderline;
+     border-color: yellow;
+	 font-family: 'Manrope', sans-serif;	
+	 font-size: 13px;
+	 flex-direction: column;
+	 margin: 0; 
+     
+}
+
+.main {
+    //@extend %borderline;
+}

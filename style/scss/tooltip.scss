@@ -1,0 +1,34 @@
+@import 'factor';
+
+.tooltip {
+    width: 253px;
+    height: 53px;
+    position: relative;
+    @extend %share;
+    padding: 0 1% 0 1%;
+    border-radius: 10px;
+    bottom: 112px;
+    right: 114px;
+    box-shadow: 0 8px 10px $Light-Grayish-Blue;
+}
+
+.arrow {
+  width: 0; 
+  height: 0; 
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+  position: absolute;
+  border-top: 13px solid $Very-Dark-Grayish-Blue;
+  bottom: -24%;
+  box-shadow: 0 8px 10px $Light-Grayish-Blue;
+}
+
+
+#hidden {
+    display:none;
+}
+
+ #hidden.tooltip-wrapper {
+     position:absolute;
+       display:block;
+    }
